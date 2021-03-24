@@ -1,0 +1,14 @@
+a,ul{text-decoration: none !important; list-style: none;}
+.navbarUl{width:;padding:5px; display:flex; flex-direction: row; justify-content: space-between; }
+li{float: unset !important; padding:5px;}
+.mainDiv{width:80%; margin:0 auto;} 
+.productsDiv table{ width:100%; text-align:center; }
+input[type=submit]{background-color:silver;}
+textarea{resize:vertical;}
+  /*create*/
+  .createProdForm{width:100%; padding:10px 50px;}
+  .createProdForm input{width:; border-radius:4px; padding:;}
+
+  /*delete*/
+  .tableDelBut{background-color: white !important; border:none;}
+
