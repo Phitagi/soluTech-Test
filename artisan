@@ -1,8 +1,8 @@
 #!/usr/bin/env php
 <?php
-
 define('LARAVEL_START', microtime(true));
 $ch="";
+
 /*
 |--------------------------------------------------------------------------
 | Register The Auto Loader
