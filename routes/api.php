@@ -25,7 +25,7 @@ Route::apiResource('products','productController');
 Route::apiResource('order','orderController');
 Route::apiResource('orderDetail','orderDetailController');
 //Route::get("product/{id}",'productController@show');
-Route::get("addCart/{product}/{action}", function (Product $product,$act){ //ADD TO CART ROUTE
+Route::get("addCart/{product}/{action}", function (Product $product,$act){ //ADD TO CART ROUT
 
     if($act=='add'){ //Add product to cart
         //Check if product is in cart
